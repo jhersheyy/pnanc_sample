@@ -1,0 +1,28 @@
+TO DO:
+test page
+styling
+	check header spacing (pretty text right side, container fit??)
+	add section tldr for how to, separate pop up disclaimer
+
+cli order
+rm -rf dist
+npm run build
+npm run start
+rm -rf dist
+git add .
+git commit -m "whatevs"
+git push heroku master
+heroku ps:scale web=1
+heroku open
+(rm -rf dist)
+git push
+
+---old shtuff---
+
+
+seeing if/when styling gets applied by looking thru css files
+try setting modules=true under export rule for scss
+
+where i was at: check error bc theres a ref issue with index js bc of the client side or server side and it not having the same eimages at the bottom =\ or sth?????
+^ok i think i fixed that but like now theres no error AND it doesnt work =\
+elaborate on non root pages: about nlp, test articles <-also 
